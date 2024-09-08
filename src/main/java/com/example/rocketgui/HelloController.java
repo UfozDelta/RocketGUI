@@ -6,10 +6,15 @@ import javafx.scene.control.Label;
 public class HelloController {
     @FXML
     private Label welcomeText;
-
     @FXML
     private Label infoText;
-    //THis is a label teset daweda
+
+
+
+    @FXML
+    protected  void onNoseConeButtonClick() {
+        infoText.setText("Hello");
+    }
 
     @FXML
     protected void onHelloButtonClick() {
@@ -17,7 +22,7 @@ public class HelloController {
     }
 
     @FXML
-    protected void onExitButtonClick() {
+    protected void onBodyTubeButtonClick() {
         infoText.setText("Goodbye!");
     }
 }

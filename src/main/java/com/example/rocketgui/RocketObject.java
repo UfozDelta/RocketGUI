@@ -30,8 +30,11 @@ public class RocketObject {
     //temp solution ==> change to only alter by edited object amount and retain other info
     public void setLength(){
         this.length = 0.0;
+<<<<<<< Updated upstream
         this.length+=cone.getLength();
         for (BodyTube bodyTube : this.bodyArray) this.length += bodyTube.getLength();
+=======
+>>>>>>> Stashed changes
     }
 
     // Accessors
