@@ -1,18 +1,37 @@
 package com.example.rocketgui;
 
-// Class creates rocket object with nested nose cone and body objects to store
-// separate radius and length variables
+/*
+* Class creates rocket object with nested nose cone and body objects to store
+* separate radius and length variables
+* Creates new objectID when
+*
+*/
+
+import java.util.*;
 
 public class RocketObject {
     // Rocket variables
     private Double length;
+    //private int currentID; // ID for every part added to rocket to be used in part array
+    private ArrayList<BodyTube> bodyArray;
 
-    // Intializers
-
+    // Initializers
+    NoseCone cone = new NoseCone(); //hardcoded nose cone temp, use ternary to decided whether to create nosecone or body tube type later
+    public void createNoseCone() {
+        //
+    }
+    public void createBodyTube(){
+        this.bodyArray.add(new BodyTube());
+    }
 
     // Mutators
+
+    //iterates through each BodyTube object in the bodyArray and adds its length to this.length
+    //temp solution ==> change to only alter by edited object amount and retain other info
     public void setLength(){
-        this.length = ;
+        this.length = 0.0;
+        this.length+=cone.getLength();
+        for (BodyTube bodyTube : this.bodyArray) this.length += bodyTube.getLength();
     }
 
     // Accessors
@@ -23,7 +42,7 @@ public class RocketObject {
     // Nested Classes
 
     //for Nose Cone
-    public class NoseCone {
+    public static class NoseCone {
         private Double radius;
         private Double length;
 
