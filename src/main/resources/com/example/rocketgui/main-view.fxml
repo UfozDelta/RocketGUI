@@ -28,7 +28,7 @@
    <ButtonBar prefHeight="40.0" prefWidth="200.0">
      <buttons>
        <Button mnemonicParsing="false" onAction="#onBodyTubeButtonClick" text="Body Tube" />
-         <Button mnemonicParsing="false" onAction="#onNoseConeButtonClick" text="Nose Cone" />
+         <Button mnemonicParsing="false" onAction="#handleOpenNewWindow" text="Nose Cone" />
      </buttons>
    </ButtonBar>
 </VBox>

@@ -8,6 +8,7 @@ package com.example.rocketgui;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
@@ -15,16 +16,18 @@ import java.io.IOException;
 
 public class MainApplication extends Application {
     @Override
-    //    SO this is what we need to do we need is to create!
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1000, 600);
+        // We load the FXML file in /resources/com.../
+        Parent root = FXMLLoader.load(getClass().getResource("main-view.fxml"));
+        Scene scene = new Scene(root, 1000, 600);
+
+        // this is for the actual window
         stage.setTitle("RocketGUI");
         stage.setScene(scene);
         stage.show();
     }
 
     public static void main(String[] args) {
-        launch();
+        launch(args);
     }
 }
