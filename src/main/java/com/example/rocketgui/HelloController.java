@@ -9,6 +9,7 @@ public class HelloController {
 
     @FXML
     private Label infoText;
+    //THis is a label teset daweda
 
     @FXML
     protected void onHelloButtonClick() {
