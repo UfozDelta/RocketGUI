@@ -4,9 +4,26 @@ package com.example.rocketgui;
 // separate radius and length variables
 
 public class RocketObject {
+    // Rocket variables
+    private Double length;
 
-    //For NoseCone
-    public static class NoseCone {
+    // Intializers
+
+
+    // Mutators
+    public void setLength(){
+        this.length = ;
+    }
+
+    // Accessors
+    public Double getLength(){
+        return this.length;
+    }
+
+    // Nested Classes
+
+    //for Nose Cone
+    public class NoseCone {
         private Double radius;
         private Double length;
 
@@ -15,7 +32,7 @@ public class RocketObject {
         public void setLength(Double length) { this.length = length; }
 
         //accessors
-        public Double getRadius() { return radius; }
+        public Double getRadius() { return this.radius; }
         public Double getLength() { return length; }
     }
 
@@ -29,7 +46,7 @@ public class RocketObject {
         public void setLength(Double length) { this.length = length; }
 
         //accessors
-        public Double getRadius() { return radius; }
-        public Double getLength() { return length; }
+        public Double getRadius() { return this.radius; }
+        public Double getLength() { return this.length; }
     }
 }
