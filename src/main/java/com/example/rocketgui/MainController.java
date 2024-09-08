@@ -1,9 +1,15 @@
 package com.example.rocketgui;
 
+/*
+ * Class Controller that allows interaction between
+ * gui that is used to interact
+ * with rocket object and FXML buttons
+ */
+
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class MainController {
     @FXML
     private Label welcomeText;
     @FXML
