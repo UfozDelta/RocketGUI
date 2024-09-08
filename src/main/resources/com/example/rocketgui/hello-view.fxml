@@ -15,6 +15,7 @@
     <Button onAction="#onHelloButtonClick" prefHeight="25.0" prefWidth="467.0" text="Hello!" />
 
     <Label fx:id="welcomeText" />
+    <Label fx:id="infoText" />
    <AreaChart prefHeight="201.0" prefWidth="586.0">
      <xAxis>
        <CategoryAxis side="BOTTOM" />
