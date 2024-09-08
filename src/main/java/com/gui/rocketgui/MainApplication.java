@@ -1,8 +1,10 @@
 package com.gui.rocketgui;
 
 /*
+ *
  * Class creates gui that is used to interact
  * with rocket object and matlab api class
+ *
  */
 
 

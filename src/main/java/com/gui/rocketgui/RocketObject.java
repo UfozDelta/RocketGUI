@@ -1,6 +1,7 @@
 package com.gui.rocketgui;
 
 /*
+*
 * Class creates rocket object with nested nose cone and body objects to store
 * separate radius and length variables
 * Creates new objectID when
@@ -25,7 +26,6 @@ public class RocketObject {
     }
 
     // Mutators
-
     //iterates through each BodyTube object in the bodyArray and adds its length to this.length
     //temp solution ==> change to only alter by edited object amount and retain other info
     public void setLength(){
