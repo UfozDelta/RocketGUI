@@ -1,4 +1,4 @@
-package com.example.rocketgui;
+package com.gui.rocketgui;
 
 /*
  * Class creates gui that is used to interact

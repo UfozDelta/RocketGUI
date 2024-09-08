@@ -4,7 +4,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="TOP_CENTER" prefHeight="411.0" prefWidth="626.0" spacing="20.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rocketgui.NoseConeController">
+<VBox alignment="TOP_CENTER" prefHeight="411.0" prefWidth="626.0" spacing="20.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.rocketgui.NoseConeController">
     <Label fx:id="displayText" text="Hello World!" />
     <Button mnemonicParsing="false" onAction="#onDisplayButtonClick" text="Button" />
 </VBox>

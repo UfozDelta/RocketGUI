@@ -1,4 +1,4 @@
-package com.example.rocketgui;
+package com.gui.rocketgui;
 
 /*
 * Class creates rocket object with nested nose cone and body objects to store

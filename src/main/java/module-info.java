@@ -3,6 +3,6 @@ module com.example.rocketgui {
     requires javafx.fxml;
 
 
-    opens com.example.rocketgui to javafx.fxml;
-    exports com.example.rocketgui;
+    opens com.gui.rocketgui to javafx.fxml;
+    exports com.gui.rocketgui;
 }

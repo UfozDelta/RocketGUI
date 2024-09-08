@@ -1,4 +1,4 @@
-package com.example.rocketgui;
+package com.gui.rocketgui;
 /*
  * Class that allows interaction between matlab
  * and gui

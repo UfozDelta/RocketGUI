@@ -1,4 +1,4 @@
-package com.example.rocketgui;
+package com.gui.rocketgui;
 
 /*
  * Class NoseCone Controller that allows interaction between
