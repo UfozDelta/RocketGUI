@@ -1,2 +1,3 @@
-RocketGUI -- C++ Matlab
+RocketGUI -- C++ Simulink
 
+qt, MATLAB
